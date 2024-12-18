@@ -23,8 +23,7 @@ async function partTwo() {
 }
 
 async function getSortedLists() {
-  const input = (await Deno.readTextFile("day1/input.txt")).split("\n");
-  input.pop();
+  const input = (await Deno.readTextFile("day1/input.txt")).trim().split("\n");
 
   const firstList: number[] = [];
   const secondList: number[] = [];

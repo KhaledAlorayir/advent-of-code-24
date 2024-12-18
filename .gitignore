@@ -1,0 +1,21 @@
+# Deno
+deno.lock
+deno.json
+deno.jsonc
+*.tsbuildinfo
+
+# Node modules (if any)
+node_modules/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.bak
+*.swp
